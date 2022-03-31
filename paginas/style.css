@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Marca';
+    src: url(fontes/Mega\ Brush.otf);
+}
+
+@font-face {
+    font-family: 'Links';
+    src: url(fontes/walkthemoonlaserital.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1: #b8145e;
+    --cor2: #005377;
+    --cor3: #06A77D;
+    --cor4: #D5C67A;
+    --cor5: #045f4789;
+    --cor6: #045f46;
+
+    --fonte1: 'Marca';
+    --fonte2: 'Links';
+}
+
+body{
+    background-color: var(--cor5);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor6));
+    height: 20vw;
+}
+
+h1{
+    font-family: var(--fonte1);
+    text-align: center;
+    color: var(--cor1);
+    padding: 3vw;
+    font-size: 8vw;
+    text-shadow: 10px 10px 10px black;
+}
+
+nav{
+    text-align: center;
+}
+
+nav > a{
+    margin: 0px 3vw;
+    text-decoration: none;
+    font-family: var(--fonte2);
+    font-size: 2vw;
+    border-radius: 5px;
+    color: white;
+    padding: 0.8vw;
+}
+
+nav > a:hover{
+    background-color: var(--cor3);
+}
+
+nav > a::after{
+    content: ' ▾';
+}
+
+main{
+    max-width: max-content; 
+    margin: 3vw 10vw;
+    background-color:rgb(255, 129, 129);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px  black;
+}
+
+#discos{
+    width: 90%;
+    margin: auto;
+}
+
+.caixa{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.226);    
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 15px; 
+    box-shadow: 5px 5px 5px black;
+    margin: 2vw;
+    width: 26%;
+    height: auto;
+    text-align: center;
+}
+
+.caixa > p{
+    font-size: 100%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 5px;
+}
+
+.caixa:hover{
+    background-color: var(--cor1);
+    transition-duration: 0.2s;
+    padding: 1vw;
+    margin: 1vw 1vw;
+}
+
+.imagem{
+    width: 95%;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.botao{
+    padding: 3px;
+    border-radius: 20px;
+    width: 90%;
+    margin: 5px;
+}
+
+.botao:hover{
+    background-color: rgb(141, 141, 141);
+    transition-duration: 0.2s;
+}
+
+.botao::after{
+    content: url(imagens/bowie-low.jpg);
+}
