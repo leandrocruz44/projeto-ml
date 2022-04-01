@@ -114,7 +114,7 @@ div#button{
 }
 
 #botao{
-    background-color: #045f46;
+    background-color: gray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1vw;
     color: white;
@@ -126,7 +126,7 @@ div#button{
 }
 
 #botao:hover{
-    background-color: #03a176;
+    background-color: #02ae80;
     transition-duration: 0.3s;
 }
 
