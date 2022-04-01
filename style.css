@@ -18,7 +18,7 @@
 :root{
     --cor1: #b8145e;
     --cor2: #005377;
-    --cor3: #06A77D;
+    --cor3: #07dea5;
     --cor4: #D5C67A;
     --cor5: #045f4789;
     --cor6: #045f46;
@@ -50,17 +50,18 @@ nav{
 }
 
 nav > a{
-    margin: 0px 3vw;
+    margin: 1vw 3vw;
     text-decoration: none;
     font-family: var(--fonte2);
     font-size: 2vw;
     border-radius: 5px;
     color: white;
-    padding: 0.8vw;
+    padding: 1vw;
 }
 
 nav > a:hover{
-    background-color: var(--cor3);
+    background-color: #03a176;
+    transition-duration: 0.2s;
 }
 
 nav > a::after{
@@ -70,7 +71,7 @@ nav > a::after{
 main{
     max-width: max-content; 
     margin: 3vw 10vw;
-    background-color:rgb(255, 129, 129);
+    background-color:rgb(249, 125, 125);
     border-radius: 15px;
     box-shadow: 5px 5px 5px  black;
 }
@@ -108,8 +109,8 @@ main{
 }
 
 .imagem{
-    width: 95%;
-    padding: 5px;
+    width: 90%;
+    padding: 1vw;
     border-radius: 15px;
 }
 
