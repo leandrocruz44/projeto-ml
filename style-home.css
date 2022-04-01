@@ -13,6 +13,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 :root{
@@ -37,7 +38,7 @@ header{
     box-shadow: 0px 2px 3px black;
 }
 
-h1{
+header > h1{
     font-family: var(--fonte1);
     text-align: center;
     color: var(--cor1);
@@ -57,7 +58,7 @@ nav > a{
     text-decoration: none;
     font-family: var(--fonte2);
     font-size: 2vw;
-    border-radius: 10x;
+    border-radius: 10px;
     color: white;
     padding: 0.7vw;
     vertical-align: middle;
@@ -73,7 +74,7 @@ nav > a::after{
 }
 
 main{
-    max-width: max-content; 
+    max-width: 1200px;
     margin: 3vw 10vw;
     background-color:rgb(249, 125, 125);
     border-radius: 15px;
@@ -90,7 +91,7 @@ main{
     background-color: rgba(0, 0, 0, 0.226);    
     font-weight: bolder;
     border: 1px solid white;
-    border-radius: 15px; 
+    border-radius: 10px; 
     box-shadow: 2px 2px 5px black;
     margin: 2vw;
     width: 26%;
@@ -99,11 +100,16 @@ main{
 }
 
 .caixa > p{
-    font-size: 100%;
+    font-size: clamp(1vw, 100%, 2vw);
     color: white;
-    text-shadow: 1px 1px 1px black;
+    padding-top: 5px;
     padding-bottom: 5px;
     font-family: sans-serif;
+}
+
+p.album{
+    font-size: clamp(2vw, 100%, 3vw);
+    text-shadow: 2px 2px 5px black;
 }
 
 .caixa:hover{
@@ -114,9 +120,9 @@ main{
 }
 
 .imagem{
-    width: 90%;
-    padding: 1vw;
-    border-radius: 15px;
+    width: 100%;
+    padding: 0vw;
+    border-radius: 10px;
 }
 
 .botao{
