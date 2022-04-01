@@ -33,7 +33,7 @@ body{
 
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor6));
-    height: 20vw;
+    height: 25vw;
 }
 
 h1{
@@ -47,6 +47,8 @@ h1{
 
 nav{
     text-align: center;
+    margin-top: 4vw;
+    margin-bottom: 1vw;
 }
 
 nav > a{
@@ -56,7 +58,8 @@ nav > a{
     font-size: 2vw;
     border-radius: 5px;
     color: white;
-    padding: 1vw;
+    padding: 0.7vw;
+    vertical-align: middle;
 }
 
 nav > a:hover{
@@ -99,6 +102,7 @@ main{
     color: white;
     text-shadow: 1px 1px 1px black;
     padding-bottom: 5px;
+    font-family: sans-serif;
 }
 
 .caixa:hover{
@@ -115,9 +119,9 @@ main{
 }
 
 .botao{
-    padding: 3px;
+    padding: 0.4vw;
     border-radius: 20px;
-    width: 90%;
+    width: 60%;
     margin: 5px;
 }
 
@@ -126,6 +130,7 @@ main{
     transition-duration: 0.2s;
 }
 
-.botao::after{
-    content: url(imagens/bowie-low.jpg);
+footer{
+    height: 10vw;
+    background-color: var(--cor6);
 }
