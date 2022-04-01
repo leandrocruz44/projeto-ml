@@ -92,10 +92,41 @@ main h1 {
     text-align: center;
     color: var(--cor);
     padding: 3vw;
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
-#img{
-    display: inline-block;
+section.imagem{
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    height: 50vw;
+    width: 100%;
+}
+
+section#disco{
+    background-image: url(imagens/jorge-negro-e-lindo.jpg);
+    border-radius: 10px;
+}
+
+#botao{
+    margin: auto;
+    align-items: center;
+}
+
+section#descrição{
+    background-color: rgba(0, 0, 0, 0.144);
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+    height: 30vw;
+    padding: 50px;
     
+}
+
+section#descrição > p{
+    width: 50vw;
+    margin: auto;
+    padding-bottom: 5vw;
+    text-align: justify;
 }
